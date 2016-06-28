@@ -11,4 +11,5 @@ use Pingxx\Search\Listener;
 // by the IoC container.
 return function (Dispatcher $events) {
     $events->subscribe(Listener\AddClientAssets::class);
+    $events->subscribe(Listener\PingxxSearch::class);
 };
