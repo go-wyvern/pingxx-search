@@ -1,7 +1,36 @@
 {
+    "name": "go-wyvern/pingxx-search",
+    "type": "flarum-extension",
+    "description": "Pingxx Search",
+    "keywords": ["search"],
+    "license": "MIT",
+    "version": "dev-master",
+    "authors": [
+        {
+            "name": "wyvern",
+            "email": "wyvern.wu@aliyun.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Pingxx\\Search\\": "src/"
+        }
+    },
+    "support": {
+        "source": "https://github.com/go-wyvern/pingxx-search"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Pingxx Search",
+            "icon": {
+                "image": "logo-black.svg",
+                "backgroundColor": "#FFFFFF",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
         }
     }
 }
